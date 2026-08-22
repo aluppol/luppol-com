@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Luppol</title>
+<meta name="description" content="Luppol — the work and projects of the Luppol family.">
+<meta property="og:title" content="Luppol">
+<meta property="og:description" content="Luppol — the work and projects of the Luppol family.">
+<meta property="og:type" content="website">
+<link rel="stylesheet" href="/styles.css">
+<style>
+  .apex-hero { min-height: 62vh; display: flex; align-items: center; }
+  .apex-hero h1 { font-size: clamp(3rem, 11vw, 6rem); margin-bottom: 1rem; }
+  .people { display: grid; grid-template-columns: repeat(auto-fill, minmax(19rem, 1fr)); gap: 1rem; }
+  .person { display: block; border: 1px solid var(--line); border-radius: 0.75rem; padding: 1.6rem; background: var(--bg-soft); color: var(--fg); }
+  .person:hover { border-color: var(--fg-muted); text-decoration: none; }
+  .person h3 { margin: 0 0 0.35rem; font-size: 1.15rem; letter-spacing: -0.01em; }
+  .person p { margin: 0 0 0.9rem; color: var(--fg-muted); font-size: 0.95rem; }
+  .person .go { font: 500 0.8rem/1 ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; color: var(--accent); }
+</style>
+</head>
+<body>
+
+<header class="site-head">
+  <div class="wrap">
+    <a class="brand" href="/">Luppol</a>
+    <nav>
+      <a href="https://albert.luppol.com">Albert</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+
+  <div class="hero apex-hero">
+    <div class="wrap">
+      <h1>Luppol</h1>
+      <p class="lede">A family name, and the things built under it. Each of us keeps our own corner here.</p>
+    </div>
+  </div>
+
+  <section id="people">
+    <div class="wrap">
+      <h2>Corners</h2>
+      <div class="people">
+
+        <a class="person" href="https://albert.luppol.com">
+          <h3>Albert</h3>
+          <p>Software engineer in Milwaukee — backend systems, data platforms, and the apps that came out of them.</p>
+          <span class="go">albert.luppol.com →</span>
+        </a>
+
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="wrap">
+  <span>© 2026 Luppol</span>
+  <nav>
+    <a href="https://albert.luppol.com">Albert</a>
+  </nav>
+</footer>
+
+</body>
+</html>
