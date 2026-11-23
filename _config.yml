@@ -1,0 +1,5 @@
+# GitHub Pages: publish the generated pages only, not their sources (see build.py, i18n/README.md)
+exclude:
+  - src
+  - i18n
+  - build.py

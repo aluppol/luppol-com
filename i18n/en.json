@@ -1,0 +1,38 @@
+{
+  "language": {
+    "name": "English",
+    "switcher": "Language"
+  },
+  "site": {
+    "brand": "Luppol",
+    "copyright": "© 2026 Luppol"
+  },
+  "home": {
+    "title": "Luppol",
+    "description": "Luppol — the work and projects of the Luppol family.",
+    "hero": {
+      "title": "Luppol",
+      "lede": "A family name, and the things built under it. Each of us keeps our own corner here."
+    },
+    "people": {
+      "heading": "Corners"
+    }
+  },
+  "people": {
+    "elena": {
+      "name": "Elena",
+      "text": "Candidate of Economic Sciences and Associate Professor of finance and economic security — and a Java developer.",
+      "go": "elena.luppol.com →"
+    },
+    "albert": {
+      "name": "Albert",
+      "text": "Autonomy Scientist and Software Engineer at Fusion Anesthesia Solutions — MSCS in Machine Learning at Georgia Tech.",
+      "go": "albert.luppol.com →"
+    },
+    "hlib": {
+      "name": "Hlib",
+      "text": "Residential irrigation in the South Bay — sprinklers, drip, valves and controllers, under the name Bay Yard.",
+      "go": "hlib.luppol.com →"
+    }
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "language": {
+    "name": "Русский",
+    "switcher": "Язык"
+  },
+  "site": {
+    "brand": "Luppol",
+    "copyright": "© 2026 Luppol"
+  },
+  "home": {
+    "title": "Luppol",
+    "description": "Luppol — работа и проекты семьи Luppol.",
+    "hero": {
+      "title": "Luppol",
+      "lede": "Фамилия — и всё, что под ней создано. У каждого из нас здесь свой уголок."
+    },
+    "people": {
+      "heading": "Уголки"
+    }
+  },
+  "people": {
+    "elena": {
+      "name": "Elena",
+      "text": "Кандидат экономических наук, доцент кафедры финансов и экономической безопасности — и Java-разработчик.",
+      "go": "elena.luppol.com →"
+    },
+    "albert": {
+      "name": "Albert",
+      "text": "Исследователь автономных систем и инженер-программист в Fusion Anesthesia Solutions — магистратура MSCS по машинному обучению в Georgia Tech.",
+      "go": "albert.luppol.com →"
+    },
+    "hlib": {
+      "name": "Hlib",
+      "text": "Полив для частных домов в South Bay — спринклеры, капельный полив, клапаны и контроллеры, под названием Bay Yard.",
+      "go": "hlib.luppol.com →"
+    }
+  }
+}

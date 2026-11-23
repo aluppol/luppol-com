@@ -1,0 +1,38 @@
+{
+  "language": {
+    "name": "Српски",
+    "switcher": "Језик"
+  },
+  "site": {
+    "brand": "Luppol",
+    "copyright": "© 2026 Luppol"
+  },
+  "home": {
+    "title": "Luppol",
+    "description": "Luppol — рад и пројекти породице Luppol.",
+    "hero": {
+      "title": "Luppol",
+      "lede": "Породично име и све што је под њим направљено. Свако од нас овде има свој кутак."
+    },
+    "people": {
+      "heading": "Кутак за свакога"
+    }
+  },
+  "people": {
+    "elena": {
+      "name": "Elena",
+      "text": "Кандидат економских наука и ванредни професор у области финансија и економске безбедности — и Java програмер.",
+      "go": "elena.luppol.com →"
+    },
+    "albert": {
+      "name": "Albert",
+      "text": "Истраживач аутономних система и софтверски инжењер у компанији Fusion Anesthesia Solutions — мастер студије MSCS из машинског учења на универзитету Georgia Tech.",
+      "go": "albert.luppol.com →"
+    },
+    "hlib": {
+      "name": "Hlib",
+      "text": "Наводњавање кућних дворишта у области South Bay — прскалице, систем кап по кап, вентили и контролери, под именом Bay Yard.",
+      "go": "hlib.luppol.com →"
+    }
+  }
+}

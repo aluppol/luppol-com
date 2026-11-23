@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="{{@lang}}">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{{home.title}}</title>
+<meta name="description" content="{{home.description}}">
+<meta property="og:title" content="{{home.title}}">
+<meta property="og:description" content="{{home.description}}">
+<meta property="og:type" content="website">
+{{@alternates}}
+<link rel="stylesheet" href="/styles.css">
+<style>
+  .apex-hero { min-height: 62vh; display: flex; align-items: center; }
+  .apex-hero h1 { font-size: clamp(3rem, 11vw, 6rem); margin-bottom: 1rem; }
+  .people { display: grid; grid-template-columns: repeat(auto-fill, minmax(19rem, 1fr)); gap: 1rem; }
+  .person { display: block; border: 1px solid var(--line); border-radius: 0.75rem; padding: 1.6rem; background: var(--bg-soft); color: var(--fg); }
+  .person:hover { border-color: var(--fg-muted); text-decoration: none; }
+  .person h3 { margin: 0 0 0.35rem; font-size: 1.15rem; letter-spacing: -0.01em; }
+  .person p { margin: 0 0 0.9rem; color: var(--fg-muted); font-size: 0.95rem; }
+  .person .go { font: 500 0.8rem/1 ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; color: var(--accent); }
+</style>
+</head>
+<body>
+
+<header class="site-head">
+  <div class="wrap">
+    <a class="brand" href="{{@prefix}}/">{{site.brand}}</a>
+    <nav>
+      <a href="https://elena.luppol.com">{{people.elena.name}}</a>
+      <a href="https://albert.luppol.com{{@prefix}}/">{{people.albert.name}}</a>
+      <a href="https://hlib.luppol.com">{{people.hlib.name}}</a>
+    </nav>
+    {{@switcher}}
+  </div>
+</header>
+
+<main>
+
+  <div class="hero apex-hero">
+    <div class="wrap">
+      <h1>{{home.hero.title}}</h1>
+      <p class="lede">{{home.hero.lede}}</p>
+    </div>
+  </div>
+
+  <section id="people">
+    <div class="wrap">
+      <h2>{{home.people.heading}}</h2>
+      <div class="people">
+
+        <a class="person" href="https://elena.luppol.com">
+          <h3>{{people.elena.name}}</h3>
+          <p>{{people.elena.text}}</p>
+          <span class="go">{{people.elena.go}}</span>
+        </a>
+
+        <a class="person" href="https://albert.luppol.com{{@prefix}}/">
+          <h3>{{people.albert.name}}</h3>
+          <p>{{people.albert.text}}</p>
+          <span class="go">{{people.albert.go}}</span>
+        </a>
+
+        <a class="person" href="https://hlib.luppol.com">
+          <h3>{{people.hlib.name}}</h3>
+          <p>{{people.hlib.text}}</p>
+          <span class="go">{{people.hlib.go}}</span>
+        </a>
+
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="wrap">
+  <span>{{site.copyright}}</span>
+  <nav>
+    <a href="https://elena.luppol.com">{{people.elena.name}}</a>
+    <a href="https://albert.luppol.com{{@prefix}}/">{{people.albert.name}}</a>
+    <a href="https://hlib.luppol.com">{{people.hlib.name}}</a>
+  </nav>
+</footer>
+
+</body>
+</html>
