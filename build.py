@@ -1,12 +1,12 @@
 #!/usr/bin/env python3
-"""Build this site's English, Russian and Serbian pages.
+"""Build this site's English and Russian pages.
 
     python3 build.py           write the pages
     python3 build.py --check   exit 1 if the committed pages differ from what the sources produce
 
 Sources: src/*.html (one template per page) and i18n/<lang>.json (every visible text, by key).
-English is written at the site root (index.html, projects/index.html, ...), Russian under ru/,
-Serbian under sr/. Python 3 standard library only. Editing guide: i18n/README.md.
+English is written at the site root (index.html, projects/index.html, ...), Russian under ru/.
+Python 3 standard library only. Editing guide: i18n/README.md.
 """
 
 import json
@@ -17,7 +17,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent
 SRC = ROOT / "src"
 I18N = ROOT / "i18n"
-LANGS = ("en", "ru", "sr")  # order of the flags; the first one is the default, served at the root
+LANGS = ("en", "ru")  # order of the flags; the first one is the default, served at the root
 BASE = "https://" + (ROOT / "CNAME").read_text(encoding="utf-8").strip()
 
 PLACEHOLDER = re.compile(r"\{\{\s*(@?[A-Za-z0-9_.-]+)\s*\}\}")
@@ -65,7 +65,6 @@ def _tricolour(top, middle, bottom):
 FLAGS = {
     "en": _us_flag(),
     "ru": _tricolour("#fff", "#0039a6", "#d52b1e"),
-    "sr": _tricolour("#c6363c", "#0c4076", "#fff"),  # the national flag, without the arms
 }
 
 
